@@ -24,24 +24,6 @@ namespace Ecommerceweekly
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controllo rigacard.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl rigacard;
-
-        /// <summary>
-        /// Controllo lblMessaggio.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMessaggio;
-
-        /// <summary>
         /// Controllo CarrelloHome.
         /// </summary>
         /// <remarks>
@@ -49,6 +31,15 @@ namespace Ecommerceweekly
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button CarrelloHome;
+
+        /// <summary>
+        /// Controllo rigacard.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl rigacard;
 
         /// <summary>
         /// Controllo RepeaterArticoli.

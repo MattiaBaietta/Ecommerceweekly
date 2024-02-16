@@ -14,9 +14,10 @@
 <body>
     <form id="form1" runat="server">
         <div class="container">
+            <asp:Button ID="CarrelloHome" runat="server" OnClick="CarrelloHome_Click" Text="Visualizza Carrello" />
             <div class="row" id="rigacard" runat="server">
-                <asp:Label ID="lblMessaggio" runat="server" Text="Label"></asp:Label>
-                <asp:Button ID="CarrelloHome" runat="server" OnClick="CarrelloHome_Click" Text="Visualizza Carrello" />
+
+
                 <asp:Repeater ID="RepeaterArticoli" runat="server">
                     <ItemTemplate>
                         <div class="col-4">
